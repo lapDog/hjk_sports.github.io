@@ -15,7 +15,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: www.coluredspark.com/blog/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
@@ -105,4 +105,8 @@ admin:
   password_hash: $2a$10$ByL/NXR6ly7kjksNIEGVYOePbQidzu3FUqSfNp8S0Q6qwqVRVbgDO
   secret: oneAndOnly
 
-
+#hexo sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
